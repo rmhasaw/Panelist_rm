@@ -45,13 +45,14 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
+
     <dependency>
       <groupId>file_handling</groupId>
       <artifactId>file_handling</artifactId>
       <version>20</version>
-      <scope>system</scope>
-      <systemPath>/home/dsiadm/.m2/repository/file_handling/file_handling/20/file_handling-20.jar</systemPath>
+      <scope>compile</scope>
     </dependency>
+
     <dependency>
       <groupId>org.drools</groupId>
       <artifactId>drools-scenario-simulation-api</artifactId>
